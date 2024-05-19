@@ -1,0 +1,43 @@
+{
+  "name": "ai_summarizer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "tailwindBuild": "npx tailwindcss -i ./Styles/App.css -o ./Styles/Dist/Output.css --watch"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-three/drei": "^9.65.5",
+    "@react-three/fiber": "^8.12.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "framer-motion": "^10.12.4",
+    "maath": "^0.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.152.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.23",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0"
+  }
+}
